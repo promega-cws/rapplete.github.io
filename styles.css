@@ -1,0 +1,76 @@
+/* promega styles */
+
+html {
+    scroll-behavior: smooth;
+    }
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #ffffff;
+    }
+
+* {
+box-sizing: border-box;
+}
+
+#mainbody {
+    background-color: #000064;
+    height: 100%;
+    font-family: 'Calibri'; color: #ffffff;
+    overflow: auto;
+}
+
+#banner-div {
+    background-color: #ffffff ;
+    height: 10%;
+    overflow: hidden;
+}
+
+.logo {
+    border: 0;
+    background-size: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 43%;
+    margin-right: 57%;
+    height: 80px;
+    width: 200px;
+}
+
+.green-line {
+    background-color: #006400;
+    height: 5px;
+    width: 100%;
+}
+
+.footer-div {
+    background-color: #ffffff;
+    height: 10%;
+    width: 100%;
+    margin-top: -8px;
+    padding-left: 70px;
+    font-family: 'Calibri'; color: #006400;
+    text-align: center;
+    
+}
+.in-logo {
+    float: right;
+    border: 0;
+    margin: -5px 15px 0 0;
+    background-size: 40px;
+    height: 40px;
+    width:  40px;
+}
+
+.item {
+    width: 720px;
+    height: 100px;
+    margin: 100px auto;
+    padding-top: 20px;
+    background: #000064;
+    text-align: center;
+    color: #ffffff;
+    font-size: 4em;
+}
