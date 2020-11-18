@@ -1,0 +1,64 @@
+/* promega styles */
+
+html {
+    width: auto;
+    }
+
+@media only screen and (max-device-width: 480px) {
+    html {
+        width: 480px;
+    }
+}
+
+body {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    font-family: 'Calibri';
+    }
+
+.green-line {
+    background-color: #006400;
+    height: 5px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 120px 700px auto;
+}
+
+.toprow,
+.midrow,
+.botrow {
+    width: auto;
+    height: auto;
+    text-align: center;
+    align-items: center;
+}
+
+.toprow {
+    background-image: url("../images/whitebricks.jpg"), url("../images/prOmega_logo.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: center;
+    background-size: cover, contain;
+    background-blend-mode: overlay;
+    height: 120px;
+    overflow: hidden;
+}
+
+.midrow {
+    background-image: url("../images/bluedoor.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.9;
+    height: 700px;
+}
+
+.botrow {
+    background-image: #ffffff;
+    font-family: 'Calibri'; color: #006400;
+}
+
+
