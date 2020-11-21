@@ -34,7 +34,7 @@
 
 /* The frames */
 .boutique-frame{
-	background: #eee3db url("../images/prOmega_logo.png") center no-repeat; /* Color of the frame behind and around the image */
+	background: #eee3db center no-repeat; /* Color of the frame behind and around the image */
 	border: 1px solid; /* Outer border around frame */
 	border-color: #f5eee9 #d0c2b6 #d0c2b6 #f5eee9;
 }

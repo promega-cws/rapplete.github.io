@@ -1,14 +1,11 @@
 /* promega styles */
 
+/*
 html {
     width: auto;
     }
+*/
 
-@media only screen and (max-device-width: 480px) {
-    html {
-        width: 480px;
-    }
-}
 
 body {
     border: 0;
@@ -18,47 +15,97 @@ body {
     font-family: 'Calibri';
     }
 
+
+/*
+@media screen and (max-width: 660px) {
+    html {
+        width: 600px;
+    }
+    
+    .grid-container {
+        display: grid;
+        grid-template-rows: 125px 660px auto;
+        grid-template-columns: 1fr auto 1fr;
+    }
+}
+*/
+
 .green-line {
-    background-color: #006400;
-    height: 5px;
+        background-color: #006400;
+        height: 3px;
 }
 
 .grid-container {
     display: grid;
-    grid-template-rows: 120px 700px auto;
+    grid-template-columns: 5% auto 5%;
+    grid-template-rows: 125px 680px auto;
+    
 }
 
-.toprow,
-.midrow,
-.botrow {
+
+.toprowleft,
+.toprowcenter,
+.toprowright,
+.midrowleft,
+.midrowcenter,
+.midrowright,
+.botrowleft,
+.botrowcenter,
+.botrowright {
     width: auto;
     height: auto;
     text-align: center;
     align-items: center;
 }
 
-.toprow {
-    background-image: url("../images/whitebricks.jpg"), url("../images/prOmega_logo.png");
-    background-repeat: no-repeat, no-repeat;
+.toprowleft {
+
+}
+
+.toprowcenter {
+    background-image: url("../images/prOmega_logo.png");
+    background-repeat: no-repeat;
     background-position: center;
-    background-size: cover, contain;
-    background-blend-mode: overlay;
-    height: 120px;
+    background-size: contain;
+    margin: 10px;
+    height: 95px;
     overflow: hidden;
 }
 
-.midrow {
-    background-image: url("../images/bluedoor.jpg");
+.toprowright {
+
+}
+
+.midrowleft {
+    background-image: #ffffff;
+}
+
+.midrowcenter {
+    background-image: url("../images/bluedoor.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    opacity: 0.9;
-    height: 700px;
+    color: #f0f0f0;
+    opacity: 1;
+    height: 680px;
 }
 
-.botrow {
+.midrowright {
     background-image: #ffffff;
-    font-family: 'Calibri'; color: #006400;
 }
 
+.botrowleft {
+    background-image #ffffff;
+}
+
+.botrowcenter {
+    height: auto;
+    background-image: #ffffff;
+    font-family: 'Calibri';
+    color: #006400;
+}
+
+.botrowright {
+    background-image: #ffffff;
+}
 
