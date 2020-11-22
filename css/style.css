@@ -1,10 +1,10 @@
 /* promega styles */
 
-/*
+
 html {
-    width: auto;
+    max-width: 1200px;
     }
-*/
+
 
 
 body {
@@ -37,7 +37,7 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 5% auto 5%;
+    grid-template-columns: 15% auto 15%;
     grid-template-rows: 125px 680px auto;
     
 }
