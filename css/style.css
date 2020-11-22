@@ -43,23 +43,20 @@ body {
 }
 
 
-.toprowleft,
+.leftcolumn,
 .toprowcenter,
-.toprowright,
-.midrowleft,
+.rightcolumn,
 .midrowcenter,
-.midrowright,
-.botrowleft,
-.botrowcenter,
-.botrowright {
+.botrowcenter,{
     width: auto;
     height: auto;
     text-align: center;
     align-items: center;
 }
 
-.toprowleft {
-
+.leftcolumn {
+    grid-column-end: span 3;
+    background-image: #ffffff;
 }
 
 .toprowcenter {
@@ -72,11 +69,8 @@ body {
     overflow: hidden;
 }
 
-.toprowright {
-
-}
-
-.midrowleft {
+.rightcolumn {
+    grid-column-end: span 3;
     background-image: #ffffff;
 }
 
@@ -90,22 +84,10 @@ body {
     height: 680px;
 }
 
-.midrowright {
-    background-image: #ffffff;
-}
-
-.botrowleft {
-    background-image #ffffff;
-}
-
 .botrowcenter {
     height: auto;
     background-image: #ffffff;
     font-family: 'Calibri';
     color: #006400;
-}
-
-.botrowright {
-    background-image: #ffffff;
 }
 
