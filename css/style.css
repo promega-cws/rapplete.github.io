@@ -42,7 +42,6 @@ body {
     
 }
 
-
 .leftcolumn,
 .toprowcenter,
 .rightcolumn,
@@ -69,11 +68,6 @@ body {
     overflow: hidden;
 }
 
-.rightcolumn {
-    grid-column-end: span 3;
-    background-image: #ffffff;
-}
-
 .midrowcenter {
     background-image: url("../images/bluedoor.png");
     background-size: cover;
@@ -90,4 +84,10 @@ body {
     font-family: 'Calibri';
     color: #006400;
 }
+
+.rightcolumn {
+    grid-column-end: span 3;
+    background-image: #ffffff;
+}
+
 
