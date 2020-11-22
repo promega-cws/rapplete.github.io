@@ -46,7 +46,7 @@ body {
 .toprowcenter,
 .rightcolumn,
 .midrowcenter,
-.botrowcenter,{
+.botrowcenter, {
     width: auto;
     height: auto;
     text-align: center;
