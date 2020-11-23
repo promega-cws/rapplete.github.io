@@ -2,10 +2,8 @@
 
 
 html {
-    max-width: 1200px;
+    max-width: auto;
     }
-
-
 
 body {
     border: 0;
