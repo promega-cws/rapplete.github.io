@@ -8,7 +8,7 @@ const EXPANTION_RATE = 2
 export function update() {
     if (onSnake(food)) {
         espandSnake(EXPANTION_RATE)
-        food = { x: 20, y: 10}
+        food = getRandomFoodPosition()
     }
 }
 
