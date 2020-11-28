@@ -30,7 +30,7 @@ body {
 .grid-container {
     display: grid;
     grid-template-columns: 10% auto 10%;
-    grid-template-rows: 125px 680px auto;
+    grid-template-rows: 125px 580px auto;
 }
 
 .toprowleft,
@@ -77,7 +77,7 @@ body {
     background-attachment: fixed;
     color: #f0f0f0;
     opacity: 1;
-    height: 680px;
+    height: 580px;
 }
 
 .midrowright {
