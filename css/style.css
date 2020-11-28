@@ -34,34 +34,35 @@ body {
 }
 
 .toprowleft,
-.toprowcenter,
 .toprowright,
 .midrowleft,
-.midrowcenter,
 .midrowright,
 .botrowleft,
-.botrowcenter,
 .botrowright {
-    width: auto;
-    height: auto;
+    display: flex;
+    background-image: #ffffff;
     text-align: center;
     align-items: center;
+    width: auto;
+    height: auto;
 }
-
+/*
 .toprowleft {
     background-image: #ffffff;
 }
-
+*/
 .toprowcenter {
     background-image: url("../images/prOmega_logo.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    text-align: center;
+    align-items: center;
     margin: 10px;
     height: 95px;
     overflow: hidden;
 }
-
+/*
 .toprowright {
     background-image: #ffffff;
 }
@@ -69,17 +70,19 @@ body {
 .midrowleft {
     background-image: #ffffff;
 }
-
+*/
 .midrowcenter {
     background-image: url("../images/bluedoor.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: #f0f0f0;
+    text-align: center;
+    align-items: center;
+    color: #ffffff;
     opacity: 1;
     height: 580px;
 }
-
+/*
 .midrowright {
     background-image: #ffffff;
 }
@@ -87,16 +90,18 @@ body {
 .botrowleft {
     background-image: #ffffff;
 }
-
+*/
 .botrowcenter {
     height: auto;
     background-image: #ffffff;
     font-family: 'Calibri';
     color: #006400;
+    text-align: center;
+    align-items: center;
 }
-
+/*
 .botrowright {
     background-image: #ffffff;
 }
-
+*/
 
