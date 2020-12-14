@@ -30,7 +30,7 @@ body {
 .grid-container {
     display: grid;
     grid-template-columns: 5% auto 5%;
-    grid-template-rows: 125px 580px auto;
+    grid-template-rows: 100px 580px auto;
 }
 
 .toprowleft,
@@ -46,11 +46,7 @@ body {
     width: auto;
     height: auto;
 }
-/*
-.toprowleft {
-    background-image: #ffffff;
-}
-*/
+
 .toprowcenter {
     background-image: url("../images/prOmega_logo.png");
     background-repeat: no-repeat;
@@ -59,18 +55,10 @@ body {
     text-align: center;
     align-items: center;
     margin: 10px;
-    height: 95px;
+    height: 85px;
     overflow: hidden;
 }
-/*
-.toprowright {
-    background-image: #ffffff;
-}
 
-.midrowleft {
-    background-image: #ffffff;
-}
-*/
 .midrowcenter {
     background-image: url("../images/bluedoor.png");
     background-size: cover;
@@ -82,15 +70,7 @@ body {
     opacity: 1;
     height: 580px;
 }
-/*
-.midrowright {
-    background-image: #ffffff;
-}
 
-.botrowleft {
-    background-image: #ffffff;
-}
-*/
 .botrowcenter {
     height: auto;
     background-image: #ffffff;
@@ -99,9 +79,5 @@ body {
     text-align: center;
     align-items: center;
 }
-/*
-.botrowright {
-    background-image: #ffffff;
-}
-*/
+
 
