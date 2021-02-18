@@ -1,3 +1,1 @@
-# rapplete.github.io
-
-promega-consulting.com testing website
+promega-consulting.com website
